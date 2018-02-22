@@ -25,7 +25,7 @@ window.fbAsyncInit = function () {
 (function ($) {
 
 	ibgSdk.init({
-		token: '0bbc111f79a3f75096ebffdfe04b04d4'
+		token: '175702a759ac7238b537ba63e35ecd3b'
 	});
 
 	skel.breakpoints({
