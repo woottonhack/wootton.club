@@ -3,16 +3,16 @@
 */
 
 
-window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '153661348775663',
-      xfbml      : true,
-      version    : 'v2.10'
-    });
+window.fbAsyncInit = function () {
+	FB.init({
+		appId: '153661348775663',
+		xfbml: true,
+		version: 'v2.10'
+	});
 
-    FB.AppEvents.logPageView();
+	FB.AppEvents.logPageView();
 
-  };
+};
 
 (function (d, s, id) {
 	var js, fjs = d.getElementsByTagName(s)[0];
@@ -23,6 +23,10 @@ window.fbAsyncInit = function() {
 }(document, 'script', 'facebook-jssdk'));
 
 (function ($) {
+
+	ibgSdk.init({
+		token: '0bbc111f79a3f75096ebffdfe04b04d4'
+	});
 
 	skel.breakpoints({
 		wide: '(min-width: 961px) and (max-width: 1880px)',
