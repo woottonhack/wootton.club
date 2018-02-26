@@ -1,3 +1,0 @@
-# Redirect domain aliases to primary domain
-https://dash.wootton.club/* https://dashboard.wootton.club/:splat 301!
-http://dash.wootton.club/* https://dashboard.wootton.club/:splat 301!
